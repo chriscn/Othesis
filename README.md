@@ -8,5 +8,7 @@ The project is written in [Typescript](https://www.typescriptlang.org/). A langu
 - [NestJS](https://nestjs.com/)
 - [TypeORM](https://typeorm.io/) 
 - [MariaDB](https://mariadb.org/)
+### App
+- [React - TBC]()
 ## License
 TODO Add the license
