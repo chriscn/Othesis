@@ -10,5 +10,8 @@ The project is written in [Typescript](https://www.typescriptlang.org/). A langu
 - [MariaDB](https://mariadb.org/)
 ### App
 - [React - TBC]()
+## Development
+The project is in very early development, and hence you are welcome to make any changes.  
+The `ROADMAP.md` file contains a rough roadmap of where I'd like to be.
 ## License
 TODO Add the license
