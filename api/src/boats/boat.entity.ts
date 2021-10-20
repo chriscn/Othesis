@@ -1,4 +1,4 @@
-import { Column, Entity, ManyToMany, PrimaryGeneratedColumn } from "typeorm";
+import { Column, Entity, ManyToOne, PrimaryGeneratedColumn } from "typeorm";
 import { BoatType } from "./boatType.entity";
 
 @Entity()
@@ -9,6 +9,6 @@ export class Boat {
     @Column()
     name: string;
 
-    @ManyToMany(() => BoatType, boatType => boatType.boats)
+    @ManyToOne(() => BoatType, boatType => boatType.boats)
     type: BoatType;
 }
