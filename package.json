@@ -1,0 +1,11 @@
+{
+    "name": "Othesis",
+    "version": "v0.0.1",
+    "description": "A boat mangement system for UYBC",
+    "author": "Christopher Nethercott",
+    "private": false,
+    "license": "AGPL-3.0-only",
+    "workspaces": [
+        "./*"
+    ]
+}
