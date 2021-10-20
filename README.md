@@ -14,4 +14,4 @@ The project is written in [Typescript](https://www.typescriptlang.org/). A langu
 The project is in very early development, and hence you are welcome to make any changes.  
 The `ROADMAP.md` file contains a rough roadmap of where I'd like to be.
 ## License
-TODO Add the license
+This work is licensed under the [GNU Affero General Public License](https://choosealicense.com/licenses/agpl-3.0/).
