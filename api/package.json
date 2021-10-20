@@ -1,10 +1,10 @@
 {
-  "name": "api",
+  "name": "othesis-api",
   "version": "0.0.1",
-  "description": "",
-  "author": "",
-  "private": true,
-  "license": "UNLICENSED",
+  "description": "RESTful backend for Othesis - a boat management system",
+  "author": "Christopher Nethercott",
+  "private": false,
+  "license": "AGPL-3.0-only",
   "scripts": {
     "prebuild": "rimraf dist",
     "build": "nest build",
