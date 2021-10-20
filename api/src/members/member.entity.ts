@@ -1,28 +1,28 @@
-import { Squad } from "src/squads/squad.entity";
-import { Column, Entity, ManyToOne, PrimaryGeneratedColumn } from "typeorm";
+import { Squad } from 'src/squads/squad.entity';
+import { Column, Entity, ManyToOne, PrimaryGeneratedColumn } from 'typeorm';
 
 @Entity()
 export class Member {
-    @PrimaryGeneratedColumn("uuid")
-    id: string;
+  @PrimaryGeneratedColumn('uuid')
+  id: string;
 
-    @Column()
-    firstName: string;
+  @Column()
+  firstName: string;
 
-    @Column()
-    lastName: string;
+  @Column()
+  lastName: string;
 
-    @Column({
-        type: "date"
-    }) 
-    dob: string;
+  @Column({
+    type: 'date',
+  })
+  dob: string;
 
-    @Column()
-    email: string;
+  @Column()
+  email: string;
 
-    @Column()
-    phone: string;
+  @Column()
+  phone: string;
 
-    @ManyToOne(() => Squad, squad => squad.members)
-    squad: Squad;
+  @ManyToOne(() => Squad, (squad) => squad.members)
+  squad: Squad;
 }
