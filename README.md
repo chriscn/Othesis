@@ -13,5 +13,8 @@ The project is written in [Typescript](https://www.typescriptlang.org/). A langu
 ## Development
 The project is in very early development, and hence you are welcome to make any changes.  
 The `ROADMAP.md` file contains a rough roadmap of where I'd like to be.
+### Contributing
+- For commit messages, please follow [ConventionalCommits](https://www.conventionalcommits.org/en/v1.0.0/).
+- The `main` branch is production ready. Create a PR against this main branch.
 ## License
 This work is licensed under the [GNU Affero General Public License](https://choosealicense.com/licenses/agpl-3.0/).
