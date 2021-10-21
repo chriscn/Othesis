@@ -21,6 +21,9 @@ export class Member {
   email: string;
 
   @Column()
+  password: string; // hash of member's password
+
+  @Column()
   phone: string;
 
   @ManyToOne(() => Squad, (squad) => squad.members)
