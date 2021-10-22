@@ -1,5 +1,5 @@
 import { Injectable } from "@nestjs/common";
-import { readFile, readFileSync } from "fs";
+import { readFileSync } from "fs";
 
 @Injectable()
 export class AppService {
