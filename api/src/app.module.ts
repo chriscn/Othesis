@@ -8,6 +8,7 @@ import { Squad } from './squads/squad.entity';
 import { Member } from './members/member.entity';
 import { Boat } from './boats/boat.entity';
 import { BoatType } from './boats/boatType.entity';
+import { AppService } from './app.service';
 
 @Module({
   imports: [
@@ -21,5 +22,6 @@ import { BoatType } from './boats/boatType.entity';
     SquadsController,
     MembersController,
   ],
+  providers: [AppService]
 })
 export class AppModule {}
