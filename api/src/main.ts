@@ -9,8 +9,10 @@ async function bootstrap() {
   // Define middlewares
   app.use(helmet());
 
-  console.log(`Othesis running on ${await app.getUrl()}`);
   await app.listen(3000);
+
+  console.log(`Othesis running on ${await app.getUrl()}`);
+
 }
 
 bootstrap();
