@@ -3,6 +3,7 @@ Below are the stages written in order of how I'd like to complete them.
 ## API & Database
 - Robust, unit tested API with access to a database to store the data. 
 - Decide of the schema fully and implement
+- Authentication of API routes through role based authentication
 ## Front End
 - Simple Boostrap App on the front end that connects to the backend through the API. 
 ## Maintenance
@@ -12,3 +13,4 @@ Below are the stages written in order of how I'd like to complete them.
 ## Other assets
 - CoxBoxes
 - ?Oars could be way more complicated
+
