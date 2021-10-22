@@ -1,14 +1,9 @@
-import { Column, Entity, ManyToOne, PrimaryGeneratedColumn } from 'typeorm';
+import { OthesisBaseEntity } from 'src/othesis.entity';
+import { Entity, ManyToOne } from 'typeorm';
 import { BoatType } from './boatType.entity';
 
 @Entity()
-export class Boat {
-  @PrimaryGeneratedColumn()
-  id: number;
-
-  @Column()
-  name: string;
-
+export class Boat extends OthesisBaseEntity {
   @ManyToOne(() => BoatType, (boatType) => boatType.boats)
   type: BoatType;
 }
