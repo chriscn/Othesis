@@ -20,7 +20,7 @@ describe('AppController', () => {
     });
 
     it('should return a project version of correct type', () => {
-      expect(appController.getRoot()['version']).toMatch(/[0-9].[0-9].[0-9]$/);
+      expect(appController.getRoot()['version']).toMatch(/\d.\d.\d$/);
     });
 
     it('should not return an empty description', () => {
