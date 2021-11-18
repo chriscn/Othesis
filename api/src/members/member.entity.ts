@@ -1,9 +1,11 @@
-import { OthesisBaseEntity } from 'src/othesis.entity';
 import { Squad } from 'src/squads/squad.entity';
 import { Column, Entity, ManyToOne, PrimaryGeneratedColumn } from 'typeorm';
 
 @Entity()
-export class Member extends OthesisBaseEntity {
+export class Member {
+  @PrimaryGeneratedColumn('uuid')
+  id: string;
+
   @Column()
   firstName: string;
 

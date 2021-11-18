@@ -1,6 +1,5 @@
 import { Boat } from 'src/boats/boat.entity';
 import { Member } from 'src/members/member.entity';
-import { OthesisBaseEntity } from 'src/othesis.entity';
 import {
   Column,
   Entity,
@@ -13,9 +12,15 @@ import {
 } from 'typeorm';
 
 @Entity()
-export class Squad extends OthesisBaseEntity{
+export class Squad {
+  @PrimaryGeneratedColumn()
+  id: number;
+
   @Column()
   name: string;
+
+  @Column('date')
+  created: string;
 
   @OneToOne(() => Member)
   @JoinColumn()
