@@ -9,11 +9,12 @@ import { Member } from './members/member.entity';
 import { Boat } from './boats/boat.entity';
 import { BoatType } from './boats/boatType.entity';
 import { AppService } from './app.service';
+import { OthesisBaseEntity } from './othesis.entity';
 
 @Module({
   imports: [
     TypeOrmModule.forRoot({
-      entities: [Squad, Member, Boat, BoatType],
+      entities: [OthesisBaseEntity, Squad, Member, Boat, BoatType],
     }),
   ],
   controllers: [
